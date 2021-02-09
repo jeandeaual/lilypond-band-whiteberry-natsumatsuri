@@ -20,7 +20,7 @@ jobs:
           path: build
           repository: jeandeaual/lilypond-jekyll-template
       - name: Make the output directories
-        run: mkdir -p build/{a4,letter,svg,midi}
+        run: mkdir -p build/{a4,letter,svg,midi,video}
       - name: Build A4 PDF (Bass)
         uses: docker://jeandeaual/lilypond:devel-fonts-ly2video
         with:

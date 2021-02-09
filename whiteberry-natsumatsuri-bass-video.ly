@@ -3,7 +3,7 @@
 \include "whiteberry-natsumatsuri-bass.ily"
 
 \score {
-  \unfoldRepeats \articulate \keepWithTag #'video \staves
+  \unfoldRepeats \keepWithTag #'video \staves
   \layout {}
   \midi {}
 }
