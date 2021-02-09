@@ -10,9 +10,6 @@
   path: baseurl
   value: /lilypond-band-whiteberry-natsumatsuri
 - command: update
-  path: url
-  value: https://jeandeaual.github.io
-- command: update
   path: repository
   value: jeandeaual/lilypond-band-whiteberry-natsumatsuri
 - command: update
